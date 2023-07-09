@@ -22,7 +22,6 @@ public class Main {
             System.out.println(employee.toString());
         }
 
-//        Manager.salaryPlus(array, 45,12000);
         Manager.salaryPlus(array);
 
         System.out.println("\nAverage age of employees = " + Employee.averageAge(array));
@@ -31,6 +30,8 @@ public class Main {
         for (Employee e : array) {
             System.out.println(e.displayEmployee());
         }
+
+        Manager.salaryPlus(array, 45,12000);
 
         Iterator<Employee> emplIterator = Arrays.asList(array).iterator();
 
