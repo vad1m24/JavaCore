@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("¬вкдите логин: ");
+        System.out.println("¬ведите логин: ");
         String login = scanner.nextLine();
-        System.out.println("¬вкдите пароль: ");
+        System.out.println("¬ведите пароль: ");
         String password = scanner.nextLine();
-        System.out.println("¬вкдите пароль: ");
+        System.out.println("¬ведите пароль: ");
         String secondPass = scanner.nextLine();
         try{
             if(!(Main.checkData(login,password,secondPass))){
